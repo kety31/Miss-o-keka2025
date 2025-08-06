@@ -87,4 +87,25 @@ const perguntas = [
     ]
 },
 ]
-    
+    const perguntas = [
+    {
+    enunciado:"Qual estilo do mundo da moda que está em alta em 2025?",
+    alternativas:[
+        {
+            texto:"Estilo Boho",
+            afirmação:"Resposta correta",
+            pontos:1
+        },
+        {
+            texto:"Estilo Minimalista",
+            afirmação:"Resposta errada",
+            pontos:0
+        },
+        {
+            texto:"Estilo Animal Print",
+            afirmação:"Resposta errada",
+            pontos:0
+        }
+    ]
+},
+]
