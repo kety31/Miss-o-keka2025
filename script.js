@@ -1,6 +1,6 @@
-const caixaPricipal = document.querySelector(".caixa-principal");
+const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelecto(".caixa-perguntas");
-const caixaAlternativas = document.querySelector(".caixa-alternativa");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
@@ -25,8 +25,7 @@ const perguntas = [
         }
     ]
 },
-]
-const perguntas = [
+
     {
     enunciado:"Qual é a marca mais famosa no mundo da moda?",
     alternativas:[
@@ -47,8 +46,7 @@ const perguntas = [
         }
     ]
 },
-]
-const perguntas = [
+
     {
     enunciado:"Em que ano Gisele bundchen ganhou o premio de modelo do ano no Vogue Fashion?",
     alternativas:[
@@ -69,8 +67,6 @@ const perguntas = [
         }
     ]
 },
-]
-const perguntas = [
     {
     enunciado:"Quais são os 7 tipos de moda?",
     alternativas:[
@@ -86,14 +82,12 @@ const perguntas = [
         }
     ]
 },
-]
-    const perguntas = [
     {
-    enunciado:"Qual estilo do mundo da moda que está em alta em 2025?",
+    enunciado:"Qual estilo está na moda entre os jovens em 2025?",
     alternativas:[
         {
-            texto:"Estilo Boho",
-            afirmação:"Resposta correta",
+            texto:"Estilo streetwear",
+            afirmação:"resporta correta",
             pontos:1
         },
         {
